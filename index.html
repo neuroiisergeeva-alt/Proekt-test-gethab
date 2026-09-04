@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Идеи на неделю — деревянное строительство</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,500;8..60,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="top">
+    <p class="eyebrow">Генерация идей на неделю</p>
+    <h1>Как менялось деревянное строительство в 80-е и 90-е</h1>
+    <p class="lead">Два готовых сценария ролика и промпт для съёмки / генерации видео. Тема недели — переход от типовых дач и щитовых домов к рынку, «финским» коттеджам и первым клеевым конструкциям.</p>
+  </header>
+
+  <main>
+    <section class="meta" aria-label="Карточка темы">
+      <div class="chip">Неделя 1</div>
+      <div class="chip">Хронометраж 45–75 сек</div>
+      <div class="chip">Формат: Reels / Shorts / VK Клипы</div>
+    </section>
+
+    <section class="grid">
+      <article class="card" id="scenario-a">
+        <header class="card-head">
+          <span class="num">Сценарий 1</span>
+          <h2>От дачи «по типовому» к рынку</h2>
+        </header>
+        <p class="hook"><strong>Хук (0–3 сек):</strong> «В 80-х дом из дерева почти всегда выглядел одинаково. В 90-х — уже нет».</p>
+        <ol class="beats">
+          <li><strong>3–12 сек.</strong> 80-е: щитовые и брусовые дачи, ГОСТ, дефицит, «что выдали — то и строили». Кадры: серые щиты, одинаковые веранды, штабеля доски на участке.</li>
+          <li><strong>12–28 сек.</strong> Перелом: кооперативы, частный заказ, импортный инструмент. Появляется выбор породы, сечения, отделки.</li>
+          <li><strong>28–48 сек.</strong> 90-е: «финский» коттедж, вагонка, металлочерепица вместо шифера, первые клеевые балки и оцилиндровка как мода.</li>
+          <li><strong>48–60 сек.</strong> Вывод: дерево перестало быть только дачным материалом — стало языком статуса и эксперимента.</li>
+        </ol>
+        <p class="cta"><strong>CTA:</strong> «Напишите в комментариях: ваш дом 80-х или уже 90-х?»</p>
+      </article>
+
+      <article class="card" id="scenario-b">
+        <header class="card-head">
+          <span class="num">Сценарий 2</span>
+          <h2>Технология, которую не видно</h2>
+        </header>
+        <p class="hook"><strong>Хук (0–3 сек):</strong> «Деревянный дом изменился не из-за красоты. Из-за того, как его стали собирать».</p>
+        <ol class="beats">
+          <li><strong>3–15 сек.</strong> 80-е: ручная пила, гвоздь, пакля, венцы «на глаз», долгая усадка, щели к зиме.</li>
+          <li><strong>15–32 сек.</strong> Конец 80-х — начало 90-х: бензопила массово, электрорубанок, первые импортные крепежи, антисептики с рынка.</li>
+          <li><strong>32–52 сек.</strong> 90-е: каркас «канадский» / скандинавский слух, OSB и минвата как новинка, клееный брус как обещание «без трещин».</li>
+          <li><strong>52–70 сек.</strong> Мораль: эпоха сменила не фасад, а культуру сборки — от дефицита к DIY-рынку.</li>
+        </ol>
+        <p class="cta"><strong>CTA:</strong> «Сохраните, если строите или ремонтируете деревянный дом — в карусели разберём детали».</p>
+      </article>
+    </section>
+
+    <section class="prompt-block" id="prompt">
+      <div class="prompt-head">
+        <h2>Промпт для ролика</h2>
+        <button type="button" class="copy" data-copy="video-prompt">Скопировать</button>
+      </div>
+      <p class="prompt-note">Вставьте в нейросеть для видео (Kling, Runway, Sora) или отдайте монтажёру как бриф. Ниже — один промпт, который закрывает оба сценария: визуальный ряд 80-х vs 90-х.</p>
+      <pre id="video-prompt" class="prompt">Cinematic documentary short, 16:9 then crop-safe for 9:16 vertical. Two-era visual essay about wooden house building in the late Soviet 1980s vs 1990s Russia. Photoreal, natural daylight, 35mm film grain, no text overlays, no logos.
+
+Shot list:
+1) Wide: grey overcast village, identical timber dachas with asbestos slate roofs, muddy paths, stacked raw planks, Soviet-era tools (hand saw, hammer, tar paper). Muted palette: olive, rust, wet wood.
+2) Close-ups: axe marks on logs, hemp packing (пакля) in joints, nails, cracked paint on veranda, frost in wall gaps.
+3) Transition: market stall with imported power tools, circular saw, electric planer, cans of wood preservative, bright metal fasteners. Warmer light.
+4) 1990s cottage: rounded logs (оцилиндровка), light lining (вагонка), metal roof, glued laminated beam under construction, carpenter with chainsaw and level.
+5) Contrast cut: same camera move — 1980s cramped panel dacha interior vs 1990s taller timber living room with big windows.
+6) End frame: craftsman’s hands on a planed beam, slow push-in, hopeful but honest, not glossy real-estate ad.
+
+Mood: archival, tactile, respectful, slightly melancholic then curious. Camera: slow dolly, handheld micro-shake, shallow DOF on tools. Sound design suggestion: saw, hammer, distant radio, then circular saw and rain on metal roof.
+
+Negative: modern IKEA interiors, plastic siding, drones over luxury eco-villages, CGI wood, smiling stock-family, English signage, anachronistic smartphones.</pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>Идеи на неделю · деревянное строительство · 80-е / 90-е</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
